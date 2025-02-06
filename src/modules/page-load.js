@@ -1,4 +1,4 @@
-import { assembleHomepage } from "./assemble-hompage.js";
+import { assembleHomepage } from "./assembleHomepage.js";
 import { assembleMenu } from "./assembleMenu.js";
 import { assembleAbout} from "./assembleAbout.js";
 
@@ -8,7 +8,7 @@ export function pageLoad() {
   /* assembleHomepage(content); */
   /* assembleMenu(content); */
   assembleAbout(content);
-  
+
 }
 
 
