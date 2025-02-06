@@ -1,6 +1,6 @@
 import { createParagraph, createHeading2, createHeading1 } from "./creating-html-elements";
 
-export function assembleMenu(content) {
+export function assembleMenu() {
   const h1 = createHeading1("Menu");
   const paragraph = createParagraph("We are updating our menu monthy. So don't forget to check it out on a regular basis.");
   const firstH2 = createHeading2("Breakfast");

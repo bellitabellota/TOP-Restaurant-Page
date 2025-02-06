@@ -1,7 +1,7 @@
 import holisticBreakfast from "../images/brooke-lark-HlNcigvUi4Q-unsplash.jpg";
 import { createParagraph, createDivWithClass, createHeading2, createHeading1, createImg } from "./creating-html-elements";
 
-export function assembleAbout(content) {
+export function assembleAbout() {
   const aboutImg = createImg(holisticBreakfast, "Holistic Breakfast", "holistic-breakfast");
   const h1 = createHeading1("About Us");
   const stackDiv = createDivWithClass("stack");

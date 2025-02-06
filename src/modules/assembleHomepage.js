@@ -3,7 +3,7 @@ import dishOfMonthImage from "..//images/farhad-ibrahimzade-59lfMHMZugY-unsplash
 import { createParagraph, createDivWithClass, createHeading2, createHeading1, createImg } from "./creating-html-elements";
 
 
-export function assembleHomepage(content) {
+export function assembleHomepage() {
   const restaurantImageElement = createImg(restaurantImage, "Our Restaurant in the Valley of a Thousand Rivers", "restaurant-image");
   const h1 = createHeading1("Peaceful Dining");
   const paragraph1 = createParagraph("True enjoyment is a holistic experience. Not only do we prepare fresh and healthy dishes from farm-to-table ingredients, we have also created an ambience that stimulates the senses so that you can leave the hustle and bustle behind and focus on the taste experience.");
