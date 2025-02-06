@@ -92,11 +92,15 @@ main {
   text-align: center;
 }
 
-.restaurant-image {
+.restaurant-image, .holistic-breakfast {
   width: 100%;
   margin-bottom: 1vw;
 }
 
 .dish-of-month-image {
   width: 50%;
+}
+
+.center {
+  text-align: center;
 }
